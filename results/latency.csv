@@ -1,0 +1,7 @@
+stage,Pipeline 1 median (ms),Pipeline 1 p95 (ms),Pipeline 2 median (ms),Pipeline 2 p95 (ms)
+Query embedding (bi-encoder),10.93,15.1,10.93,15.1
+"Vector search, top 10 (Chroma)",2.42,5.04,2.42,5.04
+"Cross-encoder, 10 pairs",,,335.12,480.79
+Retrieval total,13.39,18.97,349.8,499.71
+LLM answer (Groq API),577.24,3518.96,669.05,5262.44
+End-to-end (median retrieval + median LLM),590.63,,1018.85,

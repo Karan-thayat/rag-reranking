@@ -1,0 +1,6 @@
+approach,items scored per query,seconds per query
+Bi-encoder: embed query + Chroma top 10 over 357 chunks (Pipeline 1),357,0.01338692599983915
+"Bi-encoder: embed query + exact top 10 over 1,000,000 vectors (extrapolated)",1000000,0.0786454334966038
+Cross-encoder: re-rank the top 10 (Pipeline 2 overhead),10,0.33511969949995546
+Cross-encoder: all 357 chunks of this PDF,357,10.841219329000523
+"Cross-encoder: 1,000,000 chunks (extrapolated)",1000000,30367.56114565973

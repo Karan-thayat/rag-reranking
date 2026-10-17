@@ -1,0 +1,8 @@
+category,query,gold_chunks,baseline_rank,reranked_rank,gold_in_baseline_top3,gold_in_reranked_top3
+Keyword trap / distractor,Can we lock the account after 3 failed logins?,"[110, 111]",5,1,False,True
+Exception / corner case,Must out-of-band secrets always be sent over an encrypted channel?,[74],7,1,False,True
+Negation / constraint,Is voice recognition allowed as a biometric for authentication?,"[118, 119]",5,2,False,True
+Buried normative rule (informative text outranks it),What is the minimum password length?,"[55, 56]",5,1,False,True
+Synonym trap (PIN vs. activation secret),What is the minimum length of a PIN used to unlock a multi-factor authenticator?,[138],4,2,False,True
+Recall ceiling (SMS vs. PSTN terminology),Is SMS two-factor authentication still allowed?,"[82, 135]",60,,False,False
+Exception promoted into the top 3,Can session secrets persist after the device is rebooted?,[186],4,2,False,True

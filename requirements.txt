@@ -1,0 +1,13 @@
+# CPU-only PyTorch: both models run on CPU, and on Linux this avoids downloading
+# several GB of CUDA libraries.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+chromadb==1.5.9
+groq==1.2.0
+ipykernel==7.4.0
+numpy==2.5.3
+pandas==3.0.6
+pypdf==6.21.1
+sentence-transformers==5.5.0
+torch==2.12.0
+transformers==5.8.1

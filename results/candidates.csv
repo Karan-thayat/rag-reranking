@@ -1,0 +1,71 @@
+bi_rank,ce_rank,gold,chunk_id,page,bi_score,ce_score,text,query
+1,2,,165,58,0.45745593309402466,-9.179006,"Once this is completed, the subscriber can bind one or more new authenticators to their subscriber a…",Can we lock the account after 3 failed logins?
+2,6,,176,61,0.4099734425544739,-10.561062,"Generally, one must assume that a lost authenticator has been stolen or compromised by someone other…",Can we lock the account after 3 failed logins?
+3,5,,174,60,0.39217233657836914,-10.471426,"Recovery at AAL2 To recover an account that can authenticate at a maximum of AAL2, the CSP SHALL req…",Can we lock the account after 3 failed logins?
+4,4,,175,61,0.3871503472328186,-10.204894,"If an account that can authenticate at AAL3 has been identity-proofed at IAL3, the CSP SHALL success…",Can we lock the account after 3 failed logins?
+5,1,✓,110,41,0.38683414459228516,-7.8661733,"Rate Limiting (Throttling) When required by the authenticator type descriptions in Sec. 3.1, the ver…",Can we lock the account after 3 failed logins?
+6,3,,177,61,0.38621455430984497,-9.459429,"Alternatively, the subscriber MAY establish an authenticated protected channel for the CSP to verify…",Can we lock the account after 3 failed logins?
+7,9,,214,76,0.38490456342697144,-11.043689,6.3. Authenticator Recovery The weak point in many authentication mechanisms is the process followed…,Can we lock the account after 3 failed logins?
+8,7,,39,18,0.3778465986251831,-10.701655,"2.2.3. Reauthentication Periodic reauthentication of subscriber sessions SHALL be performed, as desc…",Can we lock the account after 3 failed logins?
+9,10,,137,49,0.37480461597442627,-11.13341,Offer subscribers at least one alternative authenticator that is not restricted and can be used to a…,Can we lock the account after 3 failed logins?
+10,8,,312,109,0.36994898319244385,-10.775431,"For example, with traditional PKI, CRLs can be used centrally to revoke access. A similar process is…",Can we lock the account after 3 failed logins?
+1,5,,73,31,0.6115632057189941,3.5972142,This has been observed with “authentication fatigue” attacks in which an attacker generates many out…,Must out-of-band secrets always be sent over an encrypted channel?
+2,2,,77,32,0.5670831203460693,3.9799802,"For the purposes of this definition, “wired connection” includes services such as cable providers th…",Must out-of-band secrets always be sent over an encrypted channel?
+3,10,,187,65,0.5376413464546204,-2.5727756,"2. Secrets are established using input from an approved random bit generator, as described in Sec. 3…",Must out-of-band secrets always be sent over an encrypted channel?
+4,4,,69,29,0.5309385061264038,3.6015432,Both the salt value and the resulting hash SHALL be stored for each look-up secret. • The verifier S…,Must out-of-band secrets always be sent over an encrypted channel?
+5,3,,76,32,0.5294329524040222,3.907605,Communication between the out-of-band authenticator and the verifier MAY use a trusted intermediary …,Must out-of-band secrets always be sent over an encrypted channel?
+6,9,,79,32,0.5284202098846436,1.9471542,"Depending on the type of out-of-band authenticator, one of the following SHALL take place: • Transfe…",Must out-of-band secrets always be sent over an encrypted channel?
+7,1,✓,74,31,0.5239574909210205,6.2228103,Out-of-Band Authenticators The out-of-band authenticator SHALL establish a separate channel with the…,Must out-of-band secrets always be sent over an encrypted channel?
+8,8,,70,29,0.5222070217132568,2.350334,The device is possessed and controlled by the claimant and supports private communication over this …,Must out-of-band secrets always be sent over an encrypted channel?
+9,7,,71,29,0.5174816846847534,2.7541494,Out-of-band authentication is not phishing-resistant. The out-of-band authenticator can operate in o…,Must out-of-band secrets always be sent over an encrypted channel?
+10,6,,72,29,0.5099167227745056,3.2077143,This method is shown in Fig. 2. 314159 Veriﬁer Authenticator App Primary Channel Secondary Channel O…,Must out-of-band secrets always be sent over an encrypted channel?
+1,6,,116,43,0.5305001735687256,-0.33579043,"However, the availability of such solutions is limited. • Biometric characteristics do not constitut…",Is voice recognition allowed as a biometric for authentication?
+2,3,,321,115,0.5248719453811646,0.27173012,The ability to generate valid authenticator outputs on demand proves that the claimant possesses and…,Is voice recognition allowed as a biometric for authentication?
+3,7,,115,42,0.5105146169662476,-0.74445015,The chosen threshold usually emphasizes a low FMR to maximize security since false non-matches can o…,Is voice recognition allowed as a biometric for authentication?
+4,1,,113,42,0.4947771430015564,3.1875818,"If this is provided, the maximum AAL of the authenticator being reset SHALL not exceed the AAL of th…",Is voice recognition allowed as a biometric for authentication?
+5,2,✓,119,43,0.4857345223426819,1.939316,Biometric comparison based on voice SHALL NOT be used. Testing the biometric system for deployment S…,Is voice recognition allowed as a biometric for authentication?
+6,4,,252,90,0.4771727919578552,0.10626432,• An alternative authentication method must be readily available and clearly communicated. Users sho…,Is voice recognition allowed as a biometric for authentication?
+7,10,,134,48,0.47537344694137573,-1.6674151,"Authentication processes that require the claimant’s intervention can be used to prove intent (e.g.,…",Is voice recognition allowed as a biometric for authentication?
+8,5,,117,43,0.4646414518356323,-0.2399173,Biometrics SHALL only be used as part of multi-factor authentication with a physical authenticator (…,Is voice recognition allowed as a biometric for authentication?
+9,9,✓,118,43,0.4639078974723816,-1.1369184,The biometric system SHOULD demonstrate a false non-match rate (FNMR) of less than 5 %. Biometric pe…,Is voice recognition allowed as a biometric for authentication?
+10,8,,248,87,0.45041948556900024,-0.7553388,Typical Usage The three biometric modalities that are most commonly used for authentication are fing…,Is voice recognition allowed as a biometric for authentication?
+1,2,,284,98,0.7093084454536438,6.300025,These attacks are outside of the scope of this Appendix. A.2. Length Password length is a primary fa…,What is the minimum password length?
+2,5,,236,83,0.6513701677322388,0.64265496,• When users create and change passwords – Clearly communicate information on how to create and chan…,What is the minimum password length?
+3,6,,286,99,0.6233779788017273,-0.72654355,"Since the size of a hashed password is independent of its length, there is no reason to prohibit the…",What is the minimum password length?
+4,7,,283,98,0.604973316192627,-2.5306778,"However, analyses of breached password databases reveal that the benefit of such rules is less signi…",What is the minimum password length?
+5,1,✓,56,25,0.5652414560317993,6.6908884,1. Verifiers and CSPs SHALL require passwords that are used as a single-factor authentication mechan…,What is the minimum password length?
+6,3,✓,55,25,0.5334177613258362,1.8647794,Passwords are not phishing-resistant. 3.1.1.1. Password Authenticators Passwords SHALL either be cho…,What is the minimum password length?
+7,10,,256,92,0.5110929012298584,-10.262093,"23043 [CMVP] National Institute of Standards and Technology (2025), Cryptographic Module Validation …",What is the minimum password length?
+8,8,,285,98,0.5094179511070251,-4.305187,3.2.2 can be applied before there is a significant chance of a successful guess. Offline attacks are…,What is the minimum password length?
+9,4,,288,99,0.5009915828704834,1.4847571,"These include dictionary words and passwords from previous breaches, such as the “Password1!” exampl…",What is the minimum password length?
+10,9,,279,96,0.4873376488685608,-9.369676,"800-132 [SP800-157] Ferraiolo H, Regenscheid AR, Fenton J (2023) Guidelines for Derived Personal Ide…",What is the minimum password length?
+1,1,,101,38,0.5662434101104736,1.913359,The challenge nonce SHALL be at least 64 bits in length and SHALL either be unique over the authenti…,What is the minimum length of a PIN used to unlock a multi-factor authenticator?
+2,7,,104,39,0.5638388395309448,-1.7428801,Authenticator activation secrets SHALL meet the requirements of Sec. 3.2.10. A biometric activation …,What is the minimum length of a PIN used to unlock a multi-factor authenticator?
+3,4,,35,17,0.5539899468421936,-0.795044,"2.2.1. Permitted Authenticator Types At AAL2, authentication SHALL use either a multi-factor authent…",What is the minimum length of a PIN used to unlock a multi-factor authenticator?
+4,2,✓,138,49,0.5530940294265747,1.1363506,"An activation secret is used to obtain access to a stored authentication key. In all cases, the acti…",What is the minimum length of a PIN used to unlock a multi-factor authenticator?
+5,3,,53,23,0.5171566009521484,-0.18817985,"prove possession of the authenticator 3.1.4, 3.1.5 Activation secret A password that is used locally…",What is the minimum length of a PIN used to unlock a multi-factor authenticator?
+6,6,,240,85,0.5131826996803284,-1.2501787,• Authenticator output allows at least one minute between changes but ideally allows users two full …,What is the minimum length of a PIN used to unlock a multi-factor authenticator?
+7,8,,137,49,0.49928128719329834,-2.6767445,Offer subscribers at least one alternative authenticator that is not restricted and can be used to a…,What is the minimum length of a PIN used to unlock a multi-factor authenticator?
+8,5,,102,39,0.490528404712677,-1.114456,The authenticator output is highly dependent on the specific cryptographic protocol used but is gene…,What is the minimum length of a PIN used to unlock a multi-factor authenticator?
+9,9,,84,34,0.48206496238708496,-5.3411965,"3.1.3.1). However, they require the presentation and verification of an activation factor (i.e., a p…",What is the minimum length of a PIN used to unlock a multi-factor authenticator?
+10,10,,292,100,0.480430006980896,-5.6247234,Throttling of local activation factors can be done in one of two ways. The authenticator itself coul…,What is the minimum length of a PIN used to unlock a multi-factor authenticator?
+1,1,,35,17,0.5519744157791138,0.12929147,"2.2.1. Permitted Authenticator Types At AAL2, authentication SHALL use either a multi-factor authent…",Is SMS two-factor authentication still allowed?
+2,10,,37,18,0.5175051689147949,-7.4360366,"As noted in that section, local verification of biometric factors (i.e., the use of a multi-factor a…",Is SMS two-factor authentication still allowed?
+3,3,,91,36,0.48899686336517334,-3.5141194,This includes hardware devices and software-based OTP generators that are installed on mobile phones…,Is SMS two-factor authentication still allowed?
+4,9,,106,40,0.4864267110824585,-6.8332357,The assertion contents and presentation requirements of the federation protocol provide the security…,Is SMS two-factor authentication still allowed?
+5,7,,332,120,0.4845314025878906,-6.1919794,MACs provide authenticity and integrity protection but not non-repudiation protection. mobile code E…,Is SMS two-factor authentication still allowed?
+6,8,,104,39,0.479827880859375,-6.3913336,Authenticator activation secrets SHALL meet the requirements of Sec. 3.2.10. A biometric activation …,Is SMS two-factor authentication still allowed?
+7,2,,239,84,0.4705549478530884,-2.6136076,"For example, it is difficult for users to transfer the authentication secret manually using a smartp…",Is SMS two-factor authentication still allowed?
+8,4,,105,39,0.46916717290878296,-4.012096,"If such a flag is present and indicates that an activation factor was not used, the authentication S…",Is SMS two-factor authentication still allowed?
+9,5,,22,12,0.4679063558578491,-4.5990787,Authentication at higher AALs can effectively reduce the risk of attacks. A high-level summary of th…,Is SMS two-factor authentication still allowed?
+10,6,,102,39,0.4583709239959717,-5.60765,The authenticator output is highly dependent on the specific cryptographic protocol used but is gene…,Is SMS two-factor authentication still allowed?
+1,1,,185,64,0.6909810900688171,6.72779,"The nature of a session depends on the application, such as: • A web browser session with a “session…",Can session secrets persist after the device is rebooted?
+2,3,,188,65,0.5737655758857727,1.4662467,"In addition, the secrets used for session binding SHOULD be erased on the subscriber endpoint when t…",Can session secrets persist after the device is rebooted?
+3,6,,184,64,0.5670245289802551,-1.4200894,"5.1. Session Bindings A session occurs between the software (i.e., the session subject) that a subsc…",Can session secrets persist after the device is rebooted?
+4,2,✓,186,65,0.5490699410438538,3.0183706,These technologies might additionally store and use these session secrets in protected keystores to …,Can session secrets persist after the device is rebooted?
+5,4,,187,65,0.5062229633331299,0.15565029,"2. Secrets are established using input from an approved random bit generator, as described in Sec. 3…",Can session secrets persist after the device is rebooted?
+6,8,,183,64,0.4817643165588379,-3.9599185,This is particularly the case with federation scenarios (see [SP800-63C]) in which the authenticatio…,Can session secrets persist after the device is rebooted?
+7,5,,195,67,0.47411859035491943,-0.6062087,"Likewise, the subscriber’s sessions at multiple different RPs are established and terminated indepen…",Can session secrets persist after the device is rebooted?
+8,9,,193,67,0.4678117036819458,-4.58156,"Session activity SHALL reset the inactivity timeout, and successful reauthentication during a sessio…",Can session secrets persist after the device is rebooted?
+9,7,,215,76,0.45222902297973633,-1.7350086,6.4. Session Attacks Hijacking attacks on the session following an authentication event can have sim…,Can session secrets persist after the device is rebooted?
+10,10,,356,129,0.4486531615257263,-5.4844007,• Section 5.1: Recognizes the use of device-bound session credentials • Section 5.1.1: Adds requirem…,Can session secrets persist after the device is rebooted?
